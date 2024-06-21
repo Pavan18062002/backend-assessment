@@ -43,4 +43,5 @@ exports.authUser = async (req, res) => {
   } else {
     res.status(401).json({ message: 'Invalid email or password' });
   }
+  
 };
