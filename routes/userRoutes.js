@@ -7,4 +7,5 @@ const router = express.Router();
 router.route('/').get(protect, getUsers);
 router.route('/:id').get(protect, getUserById);
 
+
 module.exports = router;
